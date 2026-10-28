@@ -1,0 +1,17 @@
+% fashion, iid, 100%-corpus exploratory state. FNR mean +/- seed SD.
+\begin{tabular}{lrrr}
+\hline
+Method & FNR & Query distances & Cal. seconds \\
+\hline
+Audit CRC (256) & $0.0471 \pm 0.0038$ & 539 & 1.319 \\
+Audit CRC (64) & $0.0471 \pm 0.0038$ & 539 & 0.372 \\
+Cached CRC (1000) & $0.0471 \pm 0.0038$ & 539 & 5.120 \\
+Exact & $0.0000 \pm 0.0000$ & 10000 & 0.000 \\
+Exact-delta guard & $0.0271 \pm 0.0025$ & 4323 & 2.869 \\
+Feedback (64) & $0.2437 \pm 0.1366$ & 561 & 0.372 \\
+Full CRC & $0.0471 \pm 0.0038$ & 539 & 20.584 \\
+Periodic CRC & $0.0471 \pm 0.0038$ & 539 & 13.887 \\
+Static CRC & $0.0471 \pm 0.0038$ & 539 & 2.869 \\
+Static Hoeffding & $0.0227 \pm 0.0031$ & 712 & 2.869 \\
+\hline
+\end{tabular}

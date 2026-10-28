@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "direct ANN vs trace recall every budget/state",
+    "incremental vs full ground truth including duplicates/ties",
+    "insertion guard pointwise domination",
+    "frozen-centroid invariance",
+    "nested loss",
+    "full-search zero FNR",
+    "synthetic positive-control static FNR 0 to 1"
+  ],
+  "positive_control": {
+    "synthetic": true,
+    "initial_fnr": 0,
+    "mutated_fnr": 1,
+    "not_a_real_data_failure": true
+  }
+}

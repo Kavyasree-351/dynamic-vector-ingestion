@@ -1,0 +1,67 @@
+% Exploratory current-corpus results; not a novel-method paper claim.
+\begin{tabular}{lllrrr}
+\hline
+Dataset & Mutation & Method & FNR & Query work & Cal. seconds \\
+\hline
+fashion & boundary & audit256\_crc & 0.0606 & 541 & 1.416 \\
+fashion & boundary & audit64\_crc & 0.0466 & 576 & 0.377 \\
+fashion & boundary & cached\_full\_crc & 0.0466 & 576 & 5.366 \\
+fashion & boundary & exact & 0.0000 & 10000 & 0.000 \\
+fashion & boundary & exact\_delta\_guard & 0.0263 & 4310 & 2.841 \\
+fashion & boundary & feedback64 & 0.1861 & 724 & 0.377 \\
+fashion & boundary & full\_crc & 0.0466 & 576 & 20.611 \\
+fashion & boundary & periodic\_crc & 0.0466 & 576 & 14.372 \\
+fashion & boundary & static\_crc & 0.0603 & 538 & 2.841 \\
+fashion & boundary & static\_hoeffding & 0.0270 & 726 & 2.841 \\
+fashion & iid & audit256\_crc & 0.0471 & 539 & 1.319 \\
+fashion & iid & audit64\_crc & 0.0471 & 539 & 0.372 \\
+fashion & iid & cached\_full\_crc & 0.0471 & 539 & 5.120 \\
+fashion & iid & exact & 0.0000 & 10000 & 0.000 \\
+fashion & iid & exact\_delta\_guard & 0.0271 & 4323 & 2.869 \\
+fashion & iid & feedback64 & 0.2437 & 561 & 0.372 \\
+fashion & iid & full\_crc & 0.0471 & 539 & 20.584 \\
+fashion & iid & periodic\_crc & 0.0471 & 539 & 13.887 \\
+fashion & iid & static\_crc & 0.0471 & 539 & 2.869 \\
+fashion & iid & static\_hoeffding & 0.0227 & 712 & 2.869 \\
+fashion & retrain & audit256\_crc & 0.0431 & 545 & 1.447 \\
+fashion & retrain & audit64\_crc & 0.0431 & 545 & 0.424 \\
+fashion & retrain & cached\_full\_crc & 0.0431 & 545 & 5.385 \\
+fashion & retrain & exact & 0.0000 & 10000 & 0.000 \\
+fashion & retrain & exact\_delta\_guard & 0.0271 & 4323 & 3.144 \\
+fashion & retrain & feedback64 & 0.1927 & 545 & 0.424 \\
+fashion & retrain & full\_crc & 0.0431 & 545 & 23.339 \\
+fashion & retrain & periodic\_crc & 0.0431 & 545 & 16.454 \\
+fashion & retrain & static\_crc & 0.0431 & 545 & 3.144 \\
+fashion & retrain & static\_hoeffding & 0.0220 & 723 & 3.144 \\
+glove & boundary & audit256\_crc & 0.0784 & 2428 & 0.434 \\
+glove & boundary & audit64\_crc & 0.0843 & 2357 & 0.119 \\
+glove & boundary & cached\_full\_crc & 0.0917 & 2158 & 1.664 \\
+glove & boundary & exact & 0.0000 & 20000 & 0.000 \\
+glove & boundary & exact\_delta\_guard & 0.0421 & 9226 & 0.847 \\
+glove & boundary & feedback64 & 0.0907 & 2225 & 0.119 \\
+glove & boundary & full\_crc & 0.0917 & 2158 & 6.239 \\
+glove & boundary & periodic\_crc & 0.0917 & 2158 & 4.356 \\
+glove & boundary & static\_crc & 0.0917 & 2158 & 0.847 \\
+glove & boundary & static\_hoeffding & 0.0418 & 3650 & 0.847 \\
+glove & iid & audit256\_crc & 0.0886 & 2254 & 0.436 \\
+glove & iid & audit64\_crc & 0.0976 & 2191 & 0.123 \\
+glove & iid & cached\_full\_crc & 0.0886 & 2254 & 1.752 \\
+glove & iid & exact & 0.0000 & 20000 & 0.000 \\
+glove & iid & exact\_delta\_guard & 0.0469 & 9427 & 0.850 \\
+glove & iid & feedback64 & 0.1048 & 2065 & 0.123 \\
+glove & iid & full\_crc & 0.0886 & 2254 & 6.213 \\
+glove & iid & periodic\_crc & 0.0886 & 2254 & 4.260 \\
+glove & iid & static\_crc & 0.0830 & 2380 & 0.850 \\
+glove & iid & static\_hoeffding & 0.0372 & 3998 & 0.850 \\
+glove & retrain & audit256\_crc & 0.0868 & 2278 & 0.417 \\
+glove & retrain & audit64\_crc & 0.0868 & 2341 & 0.116 \\
+glove & retrain & cached\_full\_crc & 0.0932 & 2150 & 1.737 \\
+glove & retrain & exact & 0.0000 & 20000 & 0.000 \\
+glove & retrain & exact\_delta\_guard & 0.0469 & 9427 & 0.753 \\
+glove & retrain & feedback64 & 0.0962 & 2214 & 0.116 \\
+glove & retrain & full\_crc & 0.0932 & 2150 & 6.314 \\
+glove & retrain & periodic\_crc & 0.0932 & 2150 & 4.293 \\
+glove & retrain & static\_crc & 0.0796 & 2406 & 0.753 \\
+glove & retrain & static\_hoeffding & 0.0342 & 4048 & 0.753 \\
+\hline
+\end{tabular}

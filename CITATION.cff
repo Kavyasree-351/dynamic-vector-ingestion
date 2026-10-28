@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Cite this software implementation and the original methods credited in its research notes."
+title: "Dynamic Vector Ingestion: Reproducible Research Prototype"
+type: software
+authors:
+  - name: "Kavyasree-351"
+repository-code: "https://github.com/Kavyasree-351/dynamic-vector-ingestion"
+abstract: "Reproducible engineering experiments with verified outcomes and explicit limitations; methodological novelty is not established."

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "runs": 30,
+  "conditions": 1800,
+  "checks": [
+    "all five seeds and modes",
+    "query split and reserved-pool separation",
+    "raw-summary consistency",
+    "cached/full budget equality",
+    "insertion-guard pointwise domination",
+    "full-search exactness",
+    "loss/cost ranges"
+  ]
+}

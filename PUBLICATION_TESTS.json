@@ -1,0 +1,21 @@
+{
+  "successful": true,
+  "checks": [
+    {
+      "command": [
+        "experiment.py",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "seconds": 23.467022400000133
+    },
+    {
+      "command": [
+        "validate.py"
+      ],
+      "exit_code": 0,
+      "seconds": 7.810862299986184
+    }
+  ],
+  "final_queries_evaluated": false
+}

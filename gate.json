@@ -1,0 +1,72 @@
+{
+  "failure_gate": {
+    "glove_iid": {
+      "complete": true,
+      "qualifying_seeds_by_adjacent_pair": {
+        "1-2": [],
+        "2-3": [],
+        "3-4": [],
+        "4-5": []
+      },
+      "passed": false
+    },
+    "glove_boundary": {
+      "complete": true,
+      "qualifying_seeds_by_adjacent_pair": {
+        "1-2": [],
+        "2-3": [],
+        "3-4": [],
+        "4-5": []
+      },
+      "passed": false
+    },
+    "glove_retrain": {
+      "complete": true,
+      "qualifying_seeds_by_adjacent_pair": {
+        "1-2": [],
+        "2-3": [],
+        "3-4": [],
+        "4-5": []
+      },
+      "passed": false
+    },
+    "fashion_iid": {
+      "complete": true,
+      "qualifying_seeds_by_adjacent_pair": {
+        "1-2": [],
+        "2-3": [],
+        "3-4": [],
+        "4-5": []
+      },
+      "passed": false
+    },
+    "fashion_boundary": {
+      "complete": true,
+      "qualifying_seeds_by_adjacent_pair": {
+        "1-2": [],
+        "2-3": [],
+        "3-4": [],
+        "4-5": []
+      },
+      "passed": false
+    },
+    "fashion_retrain": {
+      "complete": true,
+      "qualifying_seeds_by_adjacent_pair": {
+        "1-2": [],
+        "2-3": [],
+        "3-4": [],
+        "4-5": []
+      },
+      "passed": false
+    }
+  },
+  "replicated_failure_by_mode": {
+    "iid": false,
+    "boundary": false,
+    "retrain": false
+  },
+  "novelty_established": false,
+  "full_experiments_authorized_by_scientific_gate": false,
+  "reserved_queries_evaluated": false
+}

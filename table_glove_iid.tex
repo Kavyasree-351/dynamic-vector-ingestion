@@ -1,0 +1,17 @@
+% glove, iid, 100%-corpus exploratory state. FNR mean +/- seed SD.
+\begin{tabular}{lrrr}
+\hline
+Method & FNR & Query distances & Cal. seconds \\
+\hline
+Audit CRC (256) & $0.0886 \pm 0.0080$ & 2254 & 0.436 \\
+Audit CRC (64) & $0.0976 \pm 0.0264$ & 2191 & 0.123 \\
+Cached CRC (1000) & $0.0886 \pm 0.0080$ & 2254 & 1.752 \\
+Exact & $0.0000 \pm 0.0000$ & 20000 & 0.000 \\
+Exact-delta guard & $0.0469 \pm 0.0065$ & 9427 & 0.850 \\
+Feedback (64) & $0.1048 \pm 0.0268$ & 2065 & 0.123 \\
+Full CRC & $0.0886 \pm 0.0080$ & 2254 & 6.213 \\
+Periodic CRC & $0.0886 \pm 0.0080$ & 2254 & 4.260 \\
+Static CRC & $0.0830 \pm 0.0110$ & 2380 & 0.850 \\
+Static Hoeffding & $0.0372 \pm 0.0055$ & 3998 & 0.850 \\
+\hline
+\end{tabular}
